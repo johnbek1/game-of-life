@@ -1,5 +1,5 @@
 node('<JDK8>'){
-        stage ('SourceCodes')
+        stage ('SourceCodes'){
                  //get the code from git repo
                   git branch: 'spring1_devolop', url: 'https://github.com/johnbek1/game-of-life.git'
         }
